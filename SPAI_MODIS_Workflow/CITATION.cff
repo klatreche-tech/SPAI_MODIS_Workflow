@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this workflow for MODIS data extraction and monthly aggregation, please cite it."
+title: "SPAI MODIS Workflow: Extraction and Monthly Aggregation of MODIS Biophysical Parameters for SPAI Validation"
+version: "1.0.0"
+doi: 10.5072/zenodo.420843  
+url: https://github.com/klatreche-tech/SPAI_MODIS_Workflow
+abstract: "This repository provides an automated and reproducible workflow for validating the Standardized Pluviothermal Anomaly Index (SPAI) against MODIS-derived vegetation dynamics. It combines GEE-based station-scale extraction of MODIS Collection 6.1 biophysical parameters (NDVI, EVI, LAI, FAPAR, LST) with Python-based monthly aggregation. The dataset includes long-term meteorological records, calculated drought indices (SPAI, SPEI, SPI, sc-PDSI), and all necessary analysis scripts for statistical validation and machine learning."
+authors:
+  - family-names: "Latreche"
+    given-names: "Khaled"
+    orcid: https://orcid.org/0000-0002-2038-8140
+date-released: 2026-01-01
+keywords:
+  - MODIS
+  - Remote Sensing
+  - SPAI
+  - Biophysical Parameters
+  - NDVI
+  - EVI
+  - VCI
+  - LAI
+  - FAPAR
+  - LST
+  - Time Series
+  - Google Earth Engine
+license: "CC-BY-4.0" # https://creativecommons.org/licenses/by/4.0/
